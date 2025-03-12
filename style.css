@@ -27,7 +27,7 @@ a {
   border: 2px dashed red;
 }
 
-/* GRIGLIA DI COLONNE */
+/* GRIGLIA DI COLONNE
 .container {
   max-width: 1180px;
   margin-left: auto;
@@ -52,4 +52,13 @@ a {
 
 .col-1-2 {
   width: calc(100% / 2);
+} */
+
+/* HEADER */
+.content-header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-part {
+  display: flex;
 }
