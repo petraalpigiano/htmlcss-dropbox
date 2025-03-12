@@ -86,6 +86,7 @@ h1 {
 }
 
 /* MAIN */
+/* FIRST SECTION */
 .container-main {
   max-width: 900px;
   margin-left: auto;
@@ -115,6 +116,8 @@ h1 {
 .col {
   width: 100%;
 }
+
+/* SECOND SECTION */
 .img-text {
   display: flex;
   flex-wrap: wrap;
@@ -125,3 +128,8 @@ h1 {
 .col4 {
   width: 40%;
 }
+/* THIRD SECTION */
+
+/* FOURTH SECTION */
+
+/* FOOTER */
