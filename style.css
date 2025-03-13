@@ -241,7 +241,14 @@ footer {
   padding-top: 30px;
 }
 /* FOURTH SECTION */
-
+.section4 {
+  padding-top: 40px;
+  padding-bottom: 130px;
+}
+.section4 a {
+  text-decoration: underline;
+  color: #4442a8;
+}
 /* FOOTER */
 .background-footer {
   background-color: #000000;
