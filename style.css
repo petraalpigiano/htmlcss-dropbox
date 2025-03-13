@@ -130,6 +130,14 @@ p {
   line-height: 17px;
 }
 
+/* WHITE SPACE */
+.white-space {
+  height: 100px;
+}
+hr {
+  border: 1px solid #f8f8f8;
+}
+
 /* MAIN */
 /* FIRST SECTION */
 .container-main {
