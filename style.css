@@ -105,6 +105,7 @@ button {
 h1 {
   width: 100%;
   font-size: 4rem;
+  font-weight: 900;
 }
 .hero-part1 {
   width: 30%;
@@ -124,7 +125,8 @@ h1 {
 .hero-part2 img {
   max-width: 100%;
 }
-p {
+p,
+li {
   color: #333333;
   font-size: small;
   line-height: 17px;
@@ -179,17 +181,37 @@ h2 {
 }
 .card1 {
   border: 1px solid #dedede;
+}
+header > hr,
+.card1 > hr {
+  border: 0.5px solid #dedede;
+}
+.card1 > hr {
+  width: 35px;
+  margin-left: 30px;
+}
+.card1 li,
+p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.fa-ul {
+  margin-left: 18px;
+}
+.card1 header {
   padding-left: 30px;
   padding-right: 30px;
 }
-.card1 p {
-  padding-top: 5px;
-  padding-bottom: 5px;
+.card1 p a {
+  text-decoration: underline;
+  color: #4442a8;
 }
 .card1 main,
 footer {
   padding-bottom: 20px;
   padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .card1 header p:first-child {
   text-align: center;
