@@ -149,6 +149,21 @@ hr {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+
+.dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1.5px solid #dedede;
+  cursor: pointer;
+}
+.checked-dot {
+  border: 4px solid #0561fe;
+}
+.unchecked-dot {
+  margin-left: 35px;
+}
 .choice {
   display: inline-block;
 }
@@ -181,6 +196,7 @@ h2 {
 }
 .card1 {
   border: 1px solid #dedede;
+  min-height: 682px;
 }
 header > hr,
 .card1 > hr {
