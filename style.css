@@ -196,6 +196,8 @@ h2 {
 }
 .card1 {
   border: 1px solid #dedede;
+}
+.little {
   min-height: 682px;
 }
 header > hr,
@@ -235,14 +237,20 @@ footer {
 .card1 header h3 {
   padding-top: 20px;
 }
-.card1 footer p:first-child {
+.little footer p:first-child {
   font-weight: 600;
 }
 .card1 button {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
+.big {
+  display: flex;
+  justify-content: space-between;
+}
+.big main p {
+  font-weight: 600;
+}
 /* SECOND SECTION */
 .img-text {
   display: flex;
@@ -297,6 +305,18 @@ footer {
 }
 .content-footer p {
   color: #7b797b;
+}
+.content-footer p i {
+  margin-right: 10px;
+  margin-left: 0;
+}
+.content-footer span:last-child {
+  margin-left: 5px;
+}
+.content-footer hr {
+  margin-bottom: 30px;
+  border: 0.5px solid #f3f3f3;
+  width: 90px;
 }
 .distance2 {
   padding-top: 60px;
